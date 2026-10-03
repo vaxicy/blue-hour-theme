@@ -1,0 +1,11 @@
+# Keep assets/ and store-assets/ (README references the logo and screenshots) and themes/
+.vscode/**
+.vscodeignore
+.gitignore
+.codebuddy/**
+.tmp/**
+scripts/**
+**/__pycache__/**
+*.vsix
+assets/logo-original.png
+assets/logo-prompt.txt

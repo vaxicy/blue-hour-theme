@@ -1,0 +1,46 @@
+{
+  "name": "blue-hour-theme",
+  "displayName": "Blue Hour Theme",
+  "description": "Quiet indigo, muted slate blue and warm parchment in coordinated light and dark themes.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/icon.png",
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "blue",
+    "indigo",
+    "parchment",
+    "dusk"
+  ],
+  "galleryBanner": {
+    "color": "#111844",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/blue-hour-theme"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blue Hour Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/blue-hour-light-color-theme.json"
+      },
+      {
+        "label": "Blue Hour Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blue-hour-dark-color-theme.json"
+      }
+    ]
+  }
+}
